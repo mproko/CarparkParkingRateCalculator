@@ -106,5 +106,6 @@ namespace CarparkParkingRateCalculatorTestProject
             Assert.AreEqual(new RateStandard(20, "3+ Hours", 3, -1).getCalculatedRate(EntryTime, ExitTime).RateTotalPrice, result.RateTotalPrice, "Date Parameters: {0}, {1}", EntryTime, ExitTime);
         }
 
+
     }
 }

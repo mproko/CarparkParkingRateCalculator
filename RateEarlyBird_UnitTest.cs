@@ -64,6 +64,5 @@ namespace CarparkParkingRateCalculatorTestProject
             CalculatedRate result = _RateEarlyBird.getCalculatedRate(EntryTime, ExitTime);
             Assert.AreEqual(_RateEarlyBird.RateBasePrice, result.RateTotalPrice, "Date Parameters: {0}, {1}", EntryTime, ExitTime);
         }
-    
     }
 }
